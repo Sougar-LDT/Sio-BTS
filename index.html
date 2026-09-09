@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<body>
+	<h1 id ="titre">Sommaire de mes projets :</h1>
+	<a href="sio.html">Projet 1</a>
+	<br>
+	<a href="#">Projet 2</a>
+</body>
+<script type="text/javascript">
+	const h1Element = document.getElementById("titre")
+	h1Element.style.transform = `translate(${Math.sin(Date.now())*10}px,${Math.sin(Date.now())*10}px)`
+	console.log(h1Element.style)
+</script>
+</html>
