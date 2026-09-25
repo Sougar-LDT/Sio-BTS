@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor="beige">
+	<h1>Ajout d'un nouveau véhicule</h1>
+	<form>
+		<table>
+			<tr>
+				<td><label for="marque">Marque :</label></td>
+				<td>
+					<select id="marque" name="marque">
+						<option value="peugeot">Peugeot</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="immat">Immatriculation :</label></td>
+				<td><input type="text" id="immat" name="immatriculation"></td>
+			</tr>
+			<tr>
+				<td><label for="couleur">Couleur :</label></td>
+				<td><input type="text" id="couleur" name="couleur"></td>
+			</tr>
+			<tr>
+				<td><label for="date-immat">Date d'immatriculation :</label></td>
+				<td><input type="date" id="date-immat" name="date_immatriculation"></td>
+			</tr>
+			<tr>
+				<td><label for="km">Kilométrage :</label></td>
+				<td><input type="number" id="km" name="kilometrage"></td>
+			</tr>
+			<tr>
+				<td><label>État :</label></td>
+				<td>
+					<input type="radio" id="occasion" name="etat" value="occasion">
+					<label for="occasion">Occasion</label>
+					<input type="radio" id="neuf" name="etat" value="neuf">
+					<label for="neuf">Neuf</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Carburant :</label></td>
+				<td>
+					<input type="radio" id="hybride" name="carburant" value="hybride">
+					<label for="hybride">Hybride</label>
+					<input type="radio" id="electrique" name="carburant" value="electrique">
+					<label for="electrique">Électrique</label>
+					<input type="radio" id="essence" name="carburant" value="essence">
+					<label for="essence">Essence</label>
+					<input type="radio" id="diesel" name="carburant" value="diesel">
+					<label for="diesel">Diesel</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="boite">Boîte de vitesse :</label></td>
+				<td><input type="text" id="boite" name="boite_vitesse"></td>
+			</tr>
+			<tr>
+				<td><label for="portes">Nombre de portes :</label></td>
+				<td><input type="number" id="portes" name="nombre_portes"></td>
+			</tr>
+			<tr>
+				<td><label for="serie">Numéro de série :</label></td>
+				<td><input type="text" id="serie" name="numero_serie"></td>
+			</tr>
+			<tr>
+				<td><label for="forme">Forme :</label></td>
+				<td>
+					<select id="forme" name="forme">
+						<option value="citadine">Citadine</option>
+						<option value="berline">Berline</option>
+						<option value="pickup">Pick-up</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="date-fab">Date de fabrication :</label></td>
+				<td>
+					<input type="date" id="date-fab" name="date_fabrication">
+				</td>
+			</tr>
+		</table>
+		<button type="submit">Enregistrer</button>
+		<button type="reset">Annuler</button>
+	</form>
+	<a href="../index.html">Retour</a> 
+	<footer>
+		<p>&copy 2026 Agence Méditerranée - Location de véhicules</p>
+	</footer>
+</body>
+</html>
